@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/myTextView"
+        android:text="@string/create_account"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textStyle="italic|bold"
+        android:background="#FF03DAC5"
+        android:contentDescription="@string/app_naav"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_your_name"
+        android:textSize="29sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/date_of_birth"
+        android:textSize="28sp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/country"
+        android:textSize="28sp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_your_email_address"
+        android:textSize="28sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="216dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/create"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
